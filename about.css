@@ -1,0 +1,67 @@
+.recent-post{
+    height: 396px;
+    background-color: white;
+}
+.recent-post .post-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.recent-post .post-text p{
+    margin-left: 300px;
+}
+.recent-post .post-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.recent-post .post-card .post-card-1{
+    width: 480px;
+    height: 295px;
+    background-color: rgb(168, 240, 245);
+}
+.recent-post .post-card .post-card-1 h1{
+    margin-left: 15px;
+    margin-bottom: 80px;
+}
+.recent-post .post-card .post-card-1 p{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.recent-post .post-card .post-card-1 .p-text{
+    margin-left: 80px;
+}
+.recent-post .post-text span{
+    color: blue;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+.recent-post .post-card .post-card-1 p span{
+    padding-left: 20px;
+}
+.container{
+    text-align: center;
+    background-color: rgb(168, 240, 245);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: #302e2e;
+}
+p{
+    font-size: 18px;
+    color: rgb(94, 93, 91);
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}

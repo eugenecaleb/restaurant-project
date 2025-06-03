@@ -1,0 +1,93 @@
+body{
+  background-color: #93b9ff;
+}
+h2{
+  background-color: transparent;
+  margin: 30px;
+  padding: 60px;
+  border-radius: 15px;
+  color: #0a0a0a;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+}
+p{
+  text-align: center;
+  color: #0a0a0a;
+  font-size: 30px;
+  background-color: transparent 25%;
+  border-radius: 100px;
+}
+.reset-pass{
+    color: #000;
+    background-color: #000;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.sub-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 70vh;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0,25) 0px 13px 27px -5px,
+  rgba(0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: white;
+}
+h2{
+  margin: 1.5rem 0 2rem 0;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+  background-size: 50%;
+}
+label{
+  padding-left: 16px;
+  opacity: 0.75;
+}
+input{
+  display: flex;
+  border-radius: 50px;
+  border-style: none;
+  outline: none;
+  margin-top: 8px;
+  padding: 12px 24px;
+  width: 250px;
+  background-color: #EAEEED;
+}
+input:focus{
+  opacity: 0.7;
+}
+button{
+  padding: 12px 48px;
+  border-radius: 50px;
+  color: white;
+  margin-top: 1rem;
+  cursor: pointer;
+  outline: none;
+  border-width: 0;
+  background-color: #1A1B27;
+  font-weight: 600;
+  width: 100%;
+}
+button:hover{
+  opacity: 0.8;
+}
+.bottom-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.signup{
+  padding-left: 40%;
+  text-decoration: none;
+  cursor: pointer;
+  color: #21D4FD;
+}
+.signup:hover{
+  opacity: 0.8;
+}
